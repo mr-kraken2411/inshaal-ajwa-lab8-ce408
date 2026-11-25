@@ -1,0 +1,11 @@
+# Never commit the model artifact: it lives in S3
+*.pkl
+# Never commit credentials or keys
+*.pem
+.env
+.aws/
+# Virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
